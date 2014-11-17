@@ -1,4 +1,4 @@
-dispatch(#after: NSTimeInterval, closure: dispatch_block_t) {
+func dispatch(#after: NSTimeInterval, closure: dispatch_block_t) {
     dispatch(after: after, closure: closure)
 }
 
